@@ -1,0 +1,8 @@
+{
+    "base_config": "configs/HighwayEnv/agents/OLOPAgent/baseline.json",
+    "upper_bound": {
+        "type": "kullback-leibler",
+        "threshold": "1*np.log(time)"
+    },
+    "continuation_type": "uniform"
+}

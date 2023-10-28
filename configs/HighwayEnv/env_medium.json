@@ -1,0 +1,8 @@
+{
+    "id": "highway-v0",
+    "import_module": "highway_env",
+    "lanes_count": 3,
+    "vehicles_count": 15,
+    "duration": 40,
+    "policy_frequency": 2
+}

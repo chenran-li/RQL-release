@@ -1,0 +1,29 @@
+box2d-py==2.3.8
+cloudpickle>=1.5.0
+docopt
+gym==0.21
+gym-minigrid
+huggingface_sb3>=2.2.1, <3.*
+h5py
+importlib-metadata~=4.13 # flake8 not compatible with importlib-metadata>5.0
+numba==0.57.0
+optuna
+pytablewriter~=0.64
+pyyaml>=5.1
+rich
+rliable>=1.0.5
+seaborn
+tensorboard
+tensorboardX
+torch~=2.0.1
+tqdm
+sacred
+jupyterlab
+scikit-optimize
+scipy
+plotly
+panda-gym==1.1.1 # tmp fix: until compatibility with panda-gym v2
+pandas==1.5.3
+pybullet
+pygame
+wandb

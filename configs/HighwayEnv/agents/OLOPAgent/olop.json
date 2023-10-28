@@ -1,0 +1,8 @@
+{
+    "base_config": "configs/HighwayEnv/agents/OLOPAgent/baseline.json",
+    "upper_bound": {
+        "type": "hoeffding",
+        "threshold": "4*np.log(time)"
+    },
+    "continuation_type": "uniform"
+}
