@@ -1,3 +1,10 @@
+# Residual Q-Learning (RQL)
+### [**[Project Page](https://sites.google.com/view/residualq-learning)**]  Official code base for **[Residual Q-Learning: Offline and Online Policy Customization without Value](https://arxiv.org/abs/2306.09526)**, ***NeurIPS 2023*** 
+
+#
+
+
+
 ## Installation
 ### using pip
 ```
@@ -42,3 +49,21 @@ Run the script `train_rl.py`. The environments correspond to the tasks with tota
 
 ## Highway Environment Demo Notebook
 We also provide a demo notebook `Training_demo_Highway.ipynb` for the our experiments on the `highway-env` environment, which includes the training and evaluation of RL prior and customized policies. It also includes a demo of maximum-entropy MCTS for zero-shot online customization. 
+
+### Citation
+```
+@inproceedings{li2023residual,
+	title={Residual Q-Learning: Offline and Online Policy Customization without Value},
+	author={Li, Chenran and Tang, Chen and Nishimura, Haruki and Mercat, Jean and Tomizuka, Masayoshi and Zhan, Wei},
+	booktitle={Thirty-seventh Conference on Neural Information Processing Systems},
+	year={2023}
+
+}
+```
+
+## Questions
+Please feel free to email us if you have any questions. 
+
+Chenran Li ([chenran_li@berkeley.edu](mailto:chenran_li@berkeley.edu?subject=[GitHub]RQL-release))
+
+Chen Tang ([chen_tang@berkeley.edu](mailto:chen_tang@berkeley.edu?subject=[GitHub]RQL-release))
