@@ -1,6 +1,7 @@
 box2d-py==2.3.8
 cloudpickle>=1.5.0
 docopt
+setuptools==63.2.0
 gym==0.21
 gym-minigrid
 huggingface_sb3>=2.2.1, <3.*
